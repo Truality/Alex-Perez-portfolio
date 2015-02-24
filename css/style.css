@@ -1,0 +1,94 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1.1em;
+    font-weight: light;
+    font-family: "Open Sans", "Helvetica Neue",         sans-serif;
+    background-color: #ACB348
+}
+
+.masthead-heading,
+.masthead-intro,
+.masthead-footer {
+    text-align: center;
+}
+
+.masthead {
+  padding: 7em 0;
+  background-image: url('https://underwaterphotography.files.wordpress.com/2010/01/jheller_1040-web.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-top: solid .5em #5B433D;
+    border-bottom: solid .5em #5B433D;
+    border-left: solid .5em #5B433D;
+    border-right: solid .5em #5B433D;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.7em;
+  color: #FFFFFF  
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Gavitas+", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: -0.02em;
+    color: #ACB348;
+    text-shadow: 2px 1px 2px #000, 3px 3px 5px red;
+}
+
+.introduction-section,
+.location-section,
+.questions-section,
+.content-footer {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+
+.introduction-section > p,
+.location-section > p,
+.questions-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-size: 1.1em;
+    font-weight: light;
+    font-family: "Open Sans", "Helvetica Neue",
+      
+}
+
+.questions-section > h2 {
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 1.5em 0 1em 0;
+    color: #5B433D;
+}
+
+section > h1 {
+    margin-top: 1em;
+    font-size: 1.75em;
+    color: #000000;
+}
+
+.content-footer {
+  background-color: rgba(80, 124, 39, 0.69);
+  border-radius: 60px;
+  text-align: center
+}
+
+.content-footer > p {
+ color: white;
+ text-align: center;
+}
